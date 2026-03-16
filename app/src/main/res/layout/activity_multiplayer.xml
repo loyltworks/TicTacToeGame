@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- BACK BUTTON -->
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="15dp"
+            android:padding="10dp"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserratsemibold"
+            android:text="Tic Tac Toe"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <!-- BOARD CONTAINER -->
+    <FrameLayout
+        android:id="@+id/boardContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <!-- GRID for Buttons -->
+        <!-- We use a GridLayout to hold the dynamically generated cells -->
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:useDefaultMargins="false" />
+
+        <!-- LINES CONTAINER -->
+        <!-- Holds the dynamically generated grid lines -->
+        <FrameLayout
+            android:id="@+id/linesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center" />
+
+        <!-- WIN LINE -->
+        <View
+            android:id="@+id/winLine"
+            android:layout_width="0dp"
+            android:layout_height="6dp"
+            android:layout_gravity="top|start"
+            android:background="@drawable/line2"
+            android:transformPivotX="0dp"
+            android:transformPivotY="3dp"
+            android:visibility="invisible" />
+        <!-- PivotY = half height for rotation -->
+
+    </FrameLayout>
+
+    <!-- RESET BUTTON -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonReset"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/transprent_button_bg"
+        android:text="@string/reset"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
