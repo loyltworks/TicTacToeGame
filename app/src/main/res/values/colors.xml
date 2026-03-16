@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transperent">#00000000</color>
+    <color name="black">#0F172A</color>
+    <color name="darkBlack">#000000</color>
+
+    <color name="darkOrenge">#EA7C1F</color>
+    <color name="lightOrenge">#FBB02A</color>
+    <color name="mediumOrenge">#F29324</color>
+
+    <color name="brown">#474747</color>
+    
+    <color name="neonBlue">#04D9FF</color>
+    <color name="cardRed">#D00000</color>
+    <color name="sandel">#FBF0B3</color>
+    <color name="neonGreen">#77FAE3</color>
+</resources>
