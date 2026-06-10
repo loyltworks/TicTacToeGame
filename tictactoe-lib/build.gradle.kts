@@ -57,9 +57,9 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.github.loyltworks"
+            groupId = if (project.group.toString() == "unspecified" || project.group.toString().isEmpty()) "com.github.loyltworks" else project.group.toString()
             artifactId = "tictactoe"
-            version = "1.0.0"
+            version = if (project.version.toString() == "unspecified") "1.0.0" else project.version.toString()
 
             afterEvaluate {
                 from(components["release"])
