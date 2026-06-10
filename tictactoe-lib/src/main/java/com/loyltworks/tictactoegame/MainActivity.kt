@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
     private var selectedTheme = "NIGHT"
     private var selectedDifficulty = "EASY"
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
