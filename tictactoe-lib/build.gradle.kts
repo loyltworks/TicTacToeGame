@@ -5,9 +5,7 @@ plugins {
 
 android {
     namespace = "com.loyltworks.tictactoegame"
-    compileSdk {
-        version = release(36)
-    }
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 24
