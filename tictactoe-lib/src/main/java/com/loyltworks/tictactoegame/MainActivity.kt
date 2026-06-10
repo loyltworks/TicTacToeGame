@@ -62,14 +62,18 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         onBackPressedDispatcher.addCallback(this) {
-            finishAffinity()
+            finish()
         }
     }
 
     private fun loadPreferences() {
         val sharedPreferences = getSharedPreferences("GamePrefs", MODE_PRIVATE)
-        selectedTheme = sharedPreferences.getString("THEME", "NIGHT") ?: "NIGHT"
-        selectedDifficulty = sharedPreferences.getString("DIFFICULTY", "EASY") ?: "EASY"
+        selectedTheme = intent.getStringExtra("THEME") ?: sharedPreferences.getString("THEME", "NIGHT") ?: "NIGHT"
+        selectedDifficulty = intent.getStringExtra("DIFFICULTY") ?: sharedPreferences.getString("DIFFICULTY", "EASY") ?: "EASY"
+        
+        // Consume the intent extras so they don't override future user selections in settings during onResume()
+        intent.removeExtra("THEME")
+        intent.removeExtra("DIFFICULTY")
     }
 
     private fun savePreferences(theme: String, difficulty: String) {
