@@ -20,19 +20,27 @@ import com.bumptech.glide.request.target.Target
 
 object ConfirmationDialog {
 
-    private var dialog: Dialog?= null
-    
-    interface ConfirmationCallback{
+    private var dialog: Dialog? = null
+
+    interface ConfirmationCallback {
         fun onResetBtn()
     }
 
-    fun showDialog(context: Context, alertMsg: String, currentTheme: String, confirmationCallback: ConfirmationCallback) {
+    fun showDialog(
+        context: Context,
+        alertMsg: String,
+        currentTheme: String,
+        confirmationCallback: ConfirmationCallback,
+    ) {
         if (dialog != null) return
 
         dialog = Dialog(context, R.style.Theme_Dialog)
         dialog?.requestWindowFeature(Window.FEATURE_NO_TITLE)
         dialog?.window?.setBackgroundDrawable(Color.TRANSPARENT.toDrawable())
-        dialog?.window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT)
+        dialog?.window?.setLayout(
+            ViewGroup.LayoutParams.MATCH_PARENT,
+            ViewGroup.LayoutParams.MATCH_PARENT
+        )
         dialog?.window?.setGravity(Gravity.CENTER)
         dialog?.setCancelable(false)
         dialog?.setCanceledOnTouchOutside(false)
@@ -93,8 +101,20 @@ object ConfirmationDialog {
             .placeholder(android.R.color.transparent)
             .diskCacheStrategy(DiskCacheStrategy.RESOURCE)
             .listener(object : RequestListener<GifDrawable> {
-                override fun onLoadFailed(e: GlideException?, model: Any?, target: Target<GifDrawable>, isFirstResource: Boolean): Boolean = false
-                override fun onResourceReady(resource: GifDrawable, model: Any, target: Target<GifDrawable>?, dataSource: DataSource, isFirstResource: Boolean): Boolean {
+                override fun onLoadFailed(
+                    e: GlideException?,
+                    model: Any?,
+                    target: Target<GifDrawable>,
+                    isFirstResource: Boolean,
+                ): Boolean = false
+
+                override fun onResourceReady(
+                    resource: GifDrawable,
+                    model: Any,
+                    target: Target<GifDrawable>?,
+                    dataSource: DataSource,
+                    isFirstResource: Boolean,
+                ): Boolean {
                     // GIFs will loop continuously as requested
                     return false
                 }
