@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.loyltworks.tictactoegame"
+    namespace = "com.loyltworks.tictactoegame.app"
     compileSdk {
         version = release(36)
     }
@@ -31,22 +31,8 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-
-    buildFeatures {
-        viewBinding = true
-    }
 }
 
 dependencies {
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
-    implementation(libs.androidx.activity)
-    implementation(libs.androidx.constraintlayout)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
-    implementation("com.airbnb.android:lottie:6.3.0")
-    implementation(libs.glide)
-    annotationProcessor(libs.annotationProcessor)
+    implementation(project(":tictactoe-lib"))
 }
