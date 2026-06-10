@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             .asGif()
             .load(R.drawable.logo_gif)
             .into(binding.ivLogo)
-        
+
         loadPreferences()
 
         val animZoom2 = AnimationUtils.loadAnimation(applicationContext, R.anim.zoom2)
@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             showSettingsDialog()
         }
 
-        binding.btnSingle.setOnClickListener{
+        binding.btnSingle.setOnClickListener {
             binding.btnSingle.startAnimation(animZoom2)
             val intent = Intent(this@MainActivity, SinglePlayerActivity::class.java)
             intent.putExtra("THEME", selectedTheme)
@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.btnMulti.setOnClickListener{
+        binding.btnMulti.setOnClickListener {
             binding.btnMulti.startAnimation(animZoom2)
             val intent = Intent(this@MainActivity, MultiplayerActivity::class.java)
             intent.putExtra("THEME", selectedTheme)
@@ -80,11 +80,12 @@ class MainActivity : AppCompatActivity() {
         editor.putString("THEME", theme)
         editor.putString("DIFFICULTY", difficulty)
         editor.apply()
-        
+
         selectedTheme = theme
         selectedDifficulty = difficulty
     }
-     override fun onResume() {
+
+    override fun onResume() {
         super.onResume()
         loadPreferences() // Reload incase changed
     }
@@ -129,7 +130,7 @@ class MainActivity : AppCompatActivity() {
         // Helper to update Theme UI
         fun updateThemeUI(theme: String) {
             currentDialogTheme = theme
-            
+
             // Reset all
             val unselectedBg = R.drawable.theme_unselected_bg
             val selectedBg = R.drawable.theme_selected_bg
@@ -152,7 +153,7 @@ class MainActivity : AppCompatActivity() {
         // Helper to update Level UI
         fun updateLevelUI(level: String) {
             currentDialogDifficulty = level
-            
+
             val selectedBg = R.drawable.level_selected_bg
             val colorBrown = resources.getColor(R.color.brown, null)
             val colorWhite = resources.getColor(R.color.white, null)
