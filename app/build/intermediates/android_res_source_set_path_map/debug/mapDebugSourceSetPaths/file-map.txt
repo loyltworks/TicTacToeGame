@@ -1,0 +1,42 @@
+com.loyltworks.tictactoegame.app-activity-1.12.3-0 C:\Users\barath\.gradle\caches\9.1.0\transforms\0a36f0b7711f72b6268eb0d2c5a7417f\workspace\transformed\activity-1.12.3\res
+com.loyltworks.tictactoegame.app-lottie-6.3.0-1 C:\Users\barath\.gradle\caches\9.1.0\transforms\0ddb70262acd95a5916a494f08addb86\workspace\transformed\lottie-6.3.0\res
+com.loyltworks.tictactoegame.app-core-viewtree-1.0.0-2 C:\Users\barath\.gradle\caches\9.1.0\transforms\217737f3ddb9e1bd11ad6ea928fb3ee4\workspace\transformed\core-viewtree-1.0.0\res
+com.loyltworks.tictactoegame.app-tracing-1.2.0-3 C:\Users\barath\.gradle\caches\9.1.0\transforms\22404654f2d2feb7e89c04a1d17e0236\workspace\transformed\tracing-1.2.0\res
+com.loyltworks.tictactoegame.app-transition-1.5.0-4 C:\Users\barath\.gradle\caches\9.1.0\transforms\30759f79c01f69506f80bbe395e847bc\workspace\transformed\transition-1.5.0\res
+com.loyltworks.tictactoegame.app-lifecycle-livedata-2.6.2-5 C:\Users\barath\.gradle\caches\9.1.0\transforms\347ffb375cadaaeda2c84276e77aa25b\workspace\transformed\lifecycle-livedata-2.6.2\res
+com.loyltworks.tictactoegame.app-profileinstaller-1.4.0-6 C:\Users\barath\.gradle\caches\9.1.0\transforms\40c6e6800a84f3f91ad4272ad45d8d3a\workspace\transformed\profileinstaller-1.4.0\res
+com.loyltworks.tictactoegame.app-lifecycle-runtime-2.6.2-7 C:\Users\barath\.gradle\caches\9.1.0\transforms\5d8fc4e9e565f230366994059c4d412c\workspace\transformed\lifecycle-runtime-2.6.2\res
+com.loyltworks.tictactoegame.app-graphics-shapes-release-8 C:\Users\barath\.gradle\caches\9.1.0\transforms\5ef4708a2949183083c4ee6e470c6259\workspace\transformed\graphics-shapes-release\res
+com.loyltworks.tictactoegame.app-core-ktx-1.17.0-9 C:\Users\barath\.gradle\caches\9.1.0\transforms\5f59850ec8b1c2375fb99131600e2cf1\workspace\transformed\core-ktx-1.17.0\res
+com.loyltworks.tictactoegame.app-lifecycle-livedata-core-2.6.2-10 C:\Users\barath\.gradle\caches\9.1.0\transforms\71b6b797c1af0c2e94d427abe42bff3b\workspace\transformed\lifecycle-livedata-core-2.6.2\res
+com.loyltworks.tictactoegame.app-fragment-1.5.4-11 C:\Users\barath\.gradle\caches\9.1.0\transforms\763170417d5fa9336b5586c02ddbae44\workspace\transformed\fragment-1.5.4\res
+com.loyltworks.tictactoegame.app-glide-4.16.0-12 C:\Users\barath\.gradle\caches\9.1.0\transforms\7a6553c9b96f059ed88cf567a00e81b4\workspace\transformed\glide-4.16.0\res
+com.loyltworks.tictactoegame.app-annotation-experimental-1.4.1-13 C:\Users\barath\.gradle\caches\9.1.0\transforms\7f59607e6aee2d4e83027251785cec82\workspace\transformed\annotation-experimental-1.4.1\res
+com.loyltworks.tictactoegame.app-startup-runtime-1.1.1-14 C:\Users\barath\.gradle\caches\9.1.0\transforms\865cf8c43e525c7f51180a060211e2fe\workspace\transformed\startup-runtime-1.1.1\res
+com.loyltworks.tictactoegame.app-core-runtime-2.2.0-15 C:\Users\barath\.gradle\caches\9.1.0\transforms\9507a521c9733da77d83d1775bd6991c\workspace\transformed\core-runtime-2.2.0\res
+com.loyltworks.tictactoegame.app-cardview-1.0.0-16 C:\Users\barath\.gradle\caches\9.1.0\transforms\9abfb595de0768fb1025183f916c3261\workspace\transformed\cardview-1.0.0\res
+com.loyltworks.tictactoegame.app-lifecycle-viewmodel-savedstate-2.6.2-17 C:\Users\barath\.gradle\caches\9.1.0\transforms\9c121f4b2aec2fa6f0cffa3899e743c7\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.loyltworks.tictactoegame.app-coordinatorlayout-1.1.0-18 C:\Users\barath\.gradle\caches\9.1.0\transforms\9cfa1bd7b18887154616ed9a4f1ac874\workspace\transformed\coordinatorlayout-1.1.0\res
+com.loyltworks.tictactoegame.app-dynamicanimation-1.1.0-19 C:\Users\barath\.gradle\caches\9.1.0\transforms\9d78a7e958095e3926568b0228d25cc3\workspace\transformed\dynamicanimation-1.1.0\res
+com.loyltworks.tictactoegame.app-constraintlayout-2.2.1-20 C:\Users\barath\.gradle\caches\9.1.0\transforms\9e458f17f8fb4b620691778401a38967\workspace\transformed\constraintlayout-2.2.1\res
+com.loyltworks.tictactoegame.app-core-1.17.0-21 C:\Users\barath\.gradle\caches\9.1.0\transforms\a59535c8ba3c769b5a86b3a0a1a5ee54\workspace\transformed\core-1.17.0\res
+com.loyltworks.tictactoegame.app-recyclerview-1.2.1-22 C:\Users\barath\.gradle\caches\9.1.0\transforms\b1b421ef467613e0bea0f89aa3c3fc95\workspace\transformed\recyclerview-1.2.1\res
+com.loyltworks.tictactoegame.app-savedstate-1.2.1-23 C:\Users\barath\.gradle\caches\9.1.0\transforms\b9d55706eb0003800faee8bec15dfae9\workspace\transformed\savedstate-1.2.1\res
+com.loyltworks.tictactoegame.app-viewpager2-1.0.0-24 C:\Users\barath\.gradle\caches\9.1.0\transforms\bff38873327ce24193a1383d4c613daf\workspace\transformed\viewpager2-1.0.0\res
+com.loyltworks.tictactoegame.app-appcompat-resources-1.7.1-25 C:\Users\barath\.gradle\caches\9.1.0\transforms\dceb55457ab3ab477b8959255955643a\workspace\transformed\appcompat-resources-1.7.1\res
+com.loyltworks.tictactoegame.app-appcompat-1.7.1-26 C:\Users\barath\.gradle\caches\9.1.0\transforms\dd376b9936da7db15624bd5f41363309\workspace\transformed\appcompat-1.7.1\res
+com.loyltworks.tictactoegame.app-lifecycle-process-2.6.2-27 C:\Users\barath\.gradle\caches\9.1.0\transforms\e0dfcbac1a06efaa9ac241d4fd62f895\workspace\transformed\lifecycle-process-2.6.2\res
+com.loyltworks.tictactoegame.app-lifecycle-viewmodel-2.6.2-28 C:\Users\barath\.gradle\caches\9.1.0\transforms\e2a19c42bc8fdac40a8507995540e365\workspace\transformed\lifecycle-viewmodel-2.6.2\res
+com.loyltworks.tictactoegame.app-emoji2-1.3.0-29 C:\Users\barath\.gradle\caches\9.1.0\transforms\e2d490b70522a851f523fb890df70380\workspace\transformed\emoji2-1.3.0\res
+com.loyltworks.tictactoegame.app-drawerlayout-1.1.1-30 C:\Users\barath\.gradle\caches\9.1.0\transforms\e992d0670b9d93475044627bf3d934d9\workspace\transformed\drawerlayout-1.1.1\res
+com.loyltworks.tictactoegame.app-emoji2-views-helper-1.3.0-31 C:\Users\barath\.gradle\caches\9.1.0\transforms\e9d30ea4acd5ce8ef64b730b2b368587\workspace\transformed\emoji2-views-helper-1.3.0\res
+com.loyltworks.tictactoegame.app-navigationevent-32 C:\Users\barath\.gradle\caches\9.1.0\transforms\f1c25e4587be37006a075534fcc9ea9a\workspace\transformed\navigationevent\res
+com.loyltworks.tictactoegame.app-material-1.13.0-33 C:\Users\barath\.gradle\caches\9.1.0\transforms\f4e26439181af9caa2f0b6547b1a8945\workspace\transformed\material-1.13.0\res
+com.loyltworks.tictactoegame.app-pngs-34 D:\barath\New folder\TicTacToeGame\app\build\generated\res\pngs\debug
+com.loyltworks.tictactoegame.app-updated_navigation_xml-35 D:\barath\New folder\TicTacToeGame\app\build\generated\updated_navigation_xml\debug
+com.loyltworks.tictactoegame.app-packageDebugResources-36 D:\barath\New folder\TicTacToeGame\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.loyltworks.tictactoegame.app-packageDebugResources-37 D:\barath\New folder\TicTacToeGame\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.loyltworks.tictactoegame.app-debug-38 D:\barath\New folder\TicTacToeGame\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.loyltworks.tictactoegame.app-debug-39 D:\barath\New folder\TicTacToeGame\app\src\debug\res
+com.loyltworks.tictactoegame.app-main-40 D:\barath\New folder\TicTacToeGame\app\src\main\res
+com.loyltworks.tictactoegame.app-debug-41 D:\barath\New folder\TicTacToeGame\tictactoe-lib\build\intermediates\packaged_res\debug\packageDebugResources

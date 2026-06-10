@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "TicTacToeGame"
 include(":app")
+include(":tictactoe-lib")
