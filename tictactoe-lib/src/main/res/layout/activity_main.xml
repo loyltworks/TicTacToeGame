@@ -20,6 +20,17 @@
         app:tint="@color/white" />
 
     <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:src="@drawable/game_back"
+        app:tint="@color/white" />
+
+    <ImageView
         android:id="@+id/ivLogo"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -86,8 +97,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:text="PLAY"
                     android:fontFamily="@font/montserratsemibold"
+                    android:text="PLAY"
                     android:textColor="@color/white"
                     android:textSize="10sp" />
             </LinearLayout>
@@ -159,8 +170,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:text="PASS &amp; PLAY"
                     android:fontFamily="@font/montserratsemibold"
+                    android:text="PASS &amp; PLAY"
                     android:textColor="@color/white"
                     android:textSize="10sp" />
             </LinearLayout>
