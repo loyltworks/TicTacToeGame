@@ -47,6 +47,10 @@ class MainActivity : AppCompatActivity() {
             showSettingsDialog()
         }
 
+        binding.btnBack.setOnClickListener {
+            finish()
+        }
+
         binding.btnSingle.setOnClickListener {
             binding.btnSingle.startAnimation(animZoom2)
             val intent = Intent(this@MainActivity, SinglePlayerActivity::class.java)
